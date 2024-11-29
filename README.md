@@ -36,14 +36,6 @@ TheVirtualBrain is a framework for the simulation of the dynamics of large-scale
 1. if you receive any errors, write to albertoarturo.vergani@unipv.it
 
 ## Content:
-
-    # CNT-2025 Notebooks
-
-This repository contains notebooks organized into different sections. Each notebook explores a specific concept or example.
-
----
-
-## Intro
 - [Main Course Notebook](notebooks/intro/CNT_notebook.ipynb)
 - [Example: Blank Network](notebooks/intro/eg_blank-network.ipynb)
 - [Example: Decaying Network](notebooks/intro/eg_decaying-network.ipynb)
