@@ -1,4 +1,4 @@
-# Computational Neuroscience Tutorial 2024
+# Computational Neuroscience Tutorial 2025
 This tutorial has been designed for the following classes:
 
 - [23-24-25] Brain modelling, AI BSc, UNIMI/PV/B
