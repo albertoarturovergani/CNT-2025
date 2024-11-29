@@ -26,7 +26,7 @@ TheVirtualBrain is a framework for the simulation of the dynamics of large-scale
 1. install [PyNN](http://neuralensemble.org/docs/PyNN/installation.html) module `pip install PyNN`
 1. install [TVB](https://github.com/the-virtual-brain/tvb-root/tree/master) module `pip install tvb-library tvb-framework`-->
 
-1. clone this repository `git clone https://github.com/albertoarturovergani/CNT-2024`
+1. clone this repository `git clone https://github.com/albertoarturovergani/CNT-2025`
 1. setup the venv
     - python3 -m venv <name>
     - source <name>/bin/activate
@@ -37,64 +37,37 @@ TheVirtualBrain is a framework for the simulation of the dynamics of large-scale
 
 ## Content:
 
-### Overview for the design of Spiking Neural Networks (SNNs)
+    # CNT-2025 Notebooks
 
-1. neurons
-    - cell types
-    - populations
-    - recording variables
-1. connections
-    - synapse types
-    - connections types
-    - projections
-3. simulation managing
-    - computational settings
-    - save and load outputs
-    - visualization tools
+This repository contains notebooks organized into different sections. Each notebook explores a specific concept or example.
 
-### Tutorial notebook
+---
 
-- [CNT notebook](notebooks/intro/CNT_notebook.ipynb)
+## Intro
+- [Main Course Notebook](notebooks/intro/CNT_notebook.ipynb)
+- [Example: Blank Network](notebooks/intro/eg_blank-network.ipynb)
+- [Example: Decaying Network](notebooks/intro/eg_decaying-network.ipynb)
+- [Example: Diverging Network](notebooks/intro/eg_diverging-network.ipynb)
+- [Example: Entry Network](notebooks/intro/eg_entry-network.ipynb)
+- [Example: Single Cell](notebooks/intro/eg_single-cell.ipynb)
+- [Example: Single Clique](notebooks/intro/eg_single-clique.ipynb)
+- [Example: Small-World Network](notebooks/intro/eg_small-world-network.ipynb)
+- [Example: Stable Network](notebooks/intro/eg_stable-network.ipynb)
+- [Testing: Cell Models in the Network](notebooks/intro/eg_testing-cell-models-network.ipynb)
+- [Testing: STDP Model in the Network](notebooks/intro/eg_testing-STDP-model-network.ipynb)
+- [Exercise: Network A](notebooks/intro/ex_network_A.ipynb)
+- [Exercise: Network B](notebooks/intro/ex_network_B.ipynb)
+- [Paper: Balanced Network](notebooks/intro/paper_balance-network.ipynb)
+- [Examples with Brian2](notebooks/numerical-methods/brian2/)
+- [TVB Models](notebooks/numerical-methods/TVB/)
+- [Utility Functions for Numerical Methods](notebooks/numerical-methods/utils.py)
 
-### Network examples 
 
-- [entry network](notebooks/intro/eg_entry-network.ipynb)
-- [single cell](notebooks/intro/eg_single-cell.ipynb)
-- [single clique](notebooks/intro/eg_single-clique.ipynb)
-- [decaying network](notebooks/intro/eg_decaying-network.ipynb)
-- [diverging network](notebooks/intro/eg_diverging-network.ipynb)
-- [persistent network](notebooks/intro/eg_persistent-network.ipynb)
-- [small-world network](notebooks/intro/eg_small-world-network.ipynb)
-- [testing cell models network](notebooks/intro/eg_testing-cell-models-network.ipynb)
-- [testing STDP model network](notebooks/intro/eg_testing-STDP-model-network.ipynb)
-- [VA_balance network](notebooks/intro/paper_balance-network.ipynb)
-
-### Numerical methods 
-- [benchmark on neuron models](notebooks/numerical-methods/)
-- [benchmark on network models on Brian2](notebooks/numerical-methods/brian2/)
-- [benchmark on network models on TVB](notebooks/numerical-methods/TVB/)
-
-### Knowledge assumptions: 
+## Knowledge assumptions: 
 
 - basis of spiking neural network theory (https://neuronaldynamics.epfl.ch/online/index.html) or (https://neuromatch.io/academy/)
 - familiarity with physical quantities related to electric circuits (e.g., voltages, conductances, currents, etc)
 - basic python coding (numpy, work with dictionaries, some matplotlib tools, etc)
-
-### Expected take-home-points: 
-
-- import the simulator
-- setup the simulator
-- decide the cell types 
-- design the populations
-- define the synapse types
-- select the connection algorithm
-- make the projections 
-- idealize the stimulus
-- run the simulation
-- save the results
-- recover the results
-- postprocessing (visualization, statistics, etc)
-- close the simulations
 
 ## Links
 - [PyNN](http://neuralensemble.org/docs/PyNN/index.html)
