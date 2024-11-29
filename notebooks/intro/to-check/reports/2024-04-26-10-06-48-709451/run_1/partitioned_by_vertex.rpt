@@ -1,0 +1,29 @@
+        Partitioning Information by Vertex
+        ===============================
+
+Generated: Fri Apr 26 10:08:57 2024 for target machine '10.11.193.145'
+
+**** Vertex: 'pre'
+Model: AbstractPopulationVertex
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) 
+
+**** Vertex: 'post'
+Model: AbstractPopulationVertex
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) 
+
+**** Vertex: 'SpikeSourceArrayVertex_1'
+Model: SpikeSourceArrayVertex
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) 
+
+**** Vertex: 'SpikeSourceArrayVertex_2'
+Model: SpikeSourceArrayVertex
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) 
+

@@ -1,0 +1,26 @@
+[INFO] (data_specification.c: 89): magic = ad130ad6, version = 1.0
+[INFO] (reverse_iptag_multicast_source.c: 1114): apply_prefix: 1
+[INFO] (reverse_iptag_multicast_source.c: 1115): prefix: 1
+[INFO] (reverse_iptag_multicast_source.c: 1116): prefix_type: 1
+[INFO] (reverse_iptag_multicast_source.c: 1117): check_key_in_space: 0
+[INFO] (reverse_iptag_multicast_source.c: 1118): key_space: 0x00000001
+[INFO] (reverse_iptag_multicast_source.c: 1119): mask: 0xffffffff
+[INFO] (reverse_iptag_multicast_source.c: 1120): space_before_read_request: 11825176
+[INFO] (reverse_iptag_multicast_source.c: 1121): return_tag_id: 0
+[INFO] (reverse_iptag_multicast_source.c: 1122): return_tag_dest: 0x00000000
+[INFO] (reverse_iptag_multicast_source.c: 1123): tx_offset: 500
+[INFO] (reverse_iptag_multicast_source.c: 1152): Recording starts at 0x60243370
+[INFO] (recording.c: 197): Allocated 11824920 bytes for recording channel 0 at 0x66c44f10
+[INFO] (recording.c: 225): Recording channel 0 configured to use 11824920 byte memory block starting at 0x66c44f10
+[INFO] (reverse_iptag_multicast_source.c: 1155): Recording flags = 0x00000001
+[INFO] (reverse_iptag_multicast_source.c: 1137): buffer_region: 0x60243380
+[INFO] (reverse_iptag_multicast_source.c: 1138): buffer_region_size: 11824920
+[INFO] (reverse_iptag_multicast_source.c: 1139): end_of_buffer_region: 0x60d8a298
+[INFO] (simulation.c: 206): Setting the runtime of this model to 150 starting at 0
+[INFO] (simulation.c: 208): Setting the flag of infinite run for this model to 0
+[INFO] (simulation.c: 235): Resuming
+[INFO] (simulation.c: 96): Starting basic provenance gathering
+[INFO] (simulation.c: 99): running other provenance gathering
+[INFO] (recording.c: 147): Recording channel 0, start=0x66c44f10, end=0x6778be28, write=0x66c44f60, space=11824840
+[INFO] (recording.c: 153): Recording channel 0 wrote 80 bytes
+

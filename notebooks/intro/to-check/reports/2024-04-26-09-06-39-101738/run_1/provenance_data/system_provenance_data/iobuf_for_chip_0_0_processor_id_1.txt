@@ -1,0 +1,21 @@
+Setting reinject mc to 1
+ Setting reinject pp to 0
+Setting reinject fr to 0
+ Setting reinject nn to 0
+new seq key = -8, first data key = -9, transaction id key = -11, end flag key = -10, basic_data_key = -7
+received sdp message
+received sdp message
+received sdp message
+dropped packets 0
+received sdp message
+Setting reinject mc to 0
+ Setting reinject pp to 0
+Setting reinject fr to 0
+ Setting reinject nn to 0
+received sdp message
+Setting reinject mc to 1
+ Setting reinject pp to 0
+Setting reinject fr to 0
+ Setting reinject nn to 0
+received sdp message
+

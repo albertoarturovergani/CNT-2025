@@ -1,0 +1,29 @@
+        Partitioning Information by Vertex
+        ===============================
+
+Generated: Fri Apr 26 09:21:46 2024 for target machine '10.11.198.97'
+
+**** Vertex: 'Exc'
+Model: AbstractPopulationVertex
+Pop size: 100
+Machine Vertices: 
+  Slice 0:99 (100 atoms) 
+
+**** Vertex: 'Inh'
+Model: AbstractPopulationVertex
+Pop size: 100
+Machine Vertices: 
+  Slice 0:99 (100 atoms) 
+
+**** Vertex: 'Thalamus'
+Model: SpikeSourceArrayVertex
+Pop size: 100
+Machine Vertices: 
+  Slice 0:99 (100 atoms) 
+
+**** Vertex: 'Inh_delayed'
+Model: DelayExtensionVertex
+Pop size: 100
+Machine Vertices: 
+  Slice 0:99 (100 atoms) 
+

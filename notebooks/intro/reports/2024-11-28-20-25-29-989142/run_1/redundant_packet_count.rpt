@@ -1,0 +1,22 @@
+core vertex_4_4_3_pre:0:0 
+
+    4 packets received.
+    0 were detected as redundant packets by the bitfield filter.
+    0 were detected as having no targets after the DMA stage.
+    0 were detected as packets which we should not have received in the first place. 
+    Overall this makes a redundant percentage of 0.0
+core vertex_4_4_5_post:0:0 
+
+    29 packets received.
+    0 were detected as redundant packets by the bitfield filter.
+    0 were detected as having no targets after the DMA stage.
+    0 were detected as packets which we should not have received in the first place. 
+    Overall this makes a redundant percentage of 0.0
+overall, the core with the most incoming packets had 29 packets.
+         The core with the least incoming packets had 4 packets.
+         The core with the most redundant packets had 0 packets.
+         The core with the least redundant packets had 0 packets.
+         The average incoming and redundant were 16.5 and 0.
+         The max and min percentages of redundant packets are 0.0 and 0.0. 
+         The average redundant percentages from each core were 0.0 accordingly.
+          The total packets flown in system was 33

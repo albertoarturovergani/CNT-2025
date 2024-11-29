@@ -1,0 +1,21 @@
+[INFO] (data_specification.c: 89): magic = ad130ad6, version = 1.0
+[INFO] (recording.c: 197): Allocated 11997504 bytes for recording channel 0 at 0x649c7338
+[INFO] (recording.c: 225): Recording channel 0 configured to use 11997504 byte memory block starting at 0x649c7338
+[INFO] (recording.c: 228): Recording channel 1 left uninitialised
+[INFO] (recording.c: 228): Recording channel 2 left uninitialised
+[INFO] (recording.c: 228): Recording channel 3 left uninitialised
+[INFO] (recording.c: 228): Recording channel 4 left uninitialised
+[INFO] (direct_synapses.c: 49): Direct matrix malloc size is 4
+[INFO] (population_table_binary_search_impl.c: 459): The stored synaptic matrix base address is located at: 0x6024452c
+[INFO] (population_table_binary_search_impl.c: 461): The direct synaptic matrix base address is located at: 0x00401228
+[INFO] (profiler.c: 36): Reading profile setup from 0x60244628
+[INFO] (profiler.c: 42): Initialising profiler with storage for 0 samples starting at 0x6024462c
+[INFO] (simulation.c: 206): Setting the runtime of this model to 250 starting at 0
+[INFO] (simulation.c: 208): Setting the flag of infinite run for this model to 0
+[INFO] (simulation.c: 235): Resuming
+[INFO] (simulation.c: 96): Starting basic provenance gathering
+[INFO] (simulation.c: 99): running other provenance gathering
+[INFO] (recording.c: 147): Recording channel 0, start=0x649c7338, end=0x65538478, write=0x649c7b08, space=11995504
+[INFO] (recording.c: 153): Recording channel 0 wrote 2000 bytes
+[INFO] (profiler.c: 56): Profiler wrote 4 bytes to 0x60244628
+

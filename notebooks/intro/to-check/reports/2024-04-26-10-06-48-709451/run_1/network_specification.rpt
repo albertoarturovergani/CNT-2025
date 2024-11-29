@@ -1,0 +1,27 @@
+*** Vertices:
+Vertex pre, size: 1, model: AbstractPopulationVertex
+    Constraints:
+        MaxVertexAtomsConstraint(size=256)
+    Outgoing Edge Partitions:
+    Partition SPIKE:
+        Edge: projection edge 0, From pre to post, model: ProjectionApplicationEdge
+
+Vertex post, size: 1, model: AbstractPopulationVertex
+    Constraints:
+        MaxVertexAtomsConstraint(size=256)
+    Outgoing Edge Partitions:
+
+Vertex SpikeSourceArrayVertex_1, size: 1, model: SpikeSourceArrayVertex
+    Constraints:
+        MaxVertexAtomsConstraint(size=9223372036854775807)
+    Outgoing Edge Partitions:
+    Partition SPIKE:
+        Edge: projection edge 1, From SpikeSourceArrayVertex_1 to pre, model: ProjectionApplicationEdge
+
+Vertex SpikeSourceArrayVertex_2, size: 1, model: SpikeSourceArrayVertex
+    Constraints:
+        MaxVertexAtomsConstraint(size=9223372036854775807)
+    Outgoing Edge Partitions:
+    Partition SPIKE:
+        Edge: projection edge 2, From SpikeSourceArrayVertex_2 to post, model: ProjectionApplicationEdge
+

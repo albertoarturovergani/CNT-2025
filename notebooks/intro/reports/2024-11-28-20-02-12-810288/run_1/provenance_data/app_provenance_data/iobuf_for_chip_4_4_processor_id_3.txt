@@ -1,0 +1,30 @@
+[INFO] (data_specification.c: 89): magic = ad130ad6, version = 1.0
+[INFO] (recording.c: 197): Allocated 39616644 bytes for recording channel 0 at 0x60454c94
+[INFO] (recording.c: 197): Allocated 39616644 bytes for recording channel 1 at 0x62a1cd20
+[INFO] (recording.c: 197): Allocated 39616644 bytes for recording channel 2 at 0x64fe4dac
+[INFO] (recording.c: 197): Allocated 1961220 bytes for recording channel 3 at 0x675ace38
+[INFO] (recording.c: 225): Recording channel 0 configured to use 39616644 byte memory block starting at 0x60454c94
+[INFO] (recording.c: 225): Recording channel 1 configured to use 39616644 byte memory block starting at 0x62a1cd20
+[INFO] (recording.c: 225): Recording channel 2 configured to use 39616644 byte memory block starting at 0x64fe4dac
+[INFO] (recording.c: 225): Recording channel 3 configured to use 1961220 byte memory block starting at 0x675ace38
+[INFO] (recording.c: 228): Recording channel 4 left uninitialised
+[INFO] (direct_synapses.c: 49): Direct matrix malloc size is 400
+[INFO] (population_table_binary_search_impl.c: 459): The stored synaptic matrix base address is located at: 0x60453a0c
+[INFO] (population_table_binary_search_impl.c: 461): The direct synaptic matrix base address is located at: 0x0040522c
+[INFO] (profiler.c: 36): Reading profile setup from 0x60454a88
+[INFO] (profiler.c: 42): Initialising profiler with storage for 0 samples starting at 0x60454a8c
+[INFO] (simulation.c: 206): Setting the runtime of this model to 250 starting at 0
+[INFO] (simulation.c: 208): Setting the flag of infinite run for this model to 0
+[INFO] (simulation.c: 235): Resuming
+[INFO] (simulation.c: 96): Starting basic provenance gathering
+[INFO] (simulation.c: 99): running other provenance gathering
+[INFO] (recording.c: 147): Recording channel 0, start=0x60454c94, end=0x62a1cd18, write=0x6046d71c, space=39515644
+[INFO] (recording.c: 153): Recording channel 0 wrote 101000 bytes
+[INFO] (recording.c: 147): Recording channel 1, start=0x62a1cd20, end=0x64fe4da4, write=0x62a357a8, space=39515644
+[INFO] (recording.c: 153): Recording channel 1 wrote 101000 bytes
+[INFO] (recording.c: 147): Recording channel 2, start=0x64fe4dac, end=0x675ace30, write=0x64ffd834, space=39515644
+[INFO] (recording.c: 153): Recording channel 2 wrote 101000 bytes
+[INFO] (recording.c: 147): Recording channel 3, start=0x675ace38, end=0x6778bb3c, write=0x675adc48, space=1957620
+[INFO] (recording.c: 153): Recording channel 3 wrote 3600 bytes
+[INFO] (profiler.c: 56): Profiler wrote 4 bytes to 0x60454a88
+

@@ -1,0 +1,33 @@
+[INFO] (spike_source_poisson.c: 406): Initialise: started
+[INFO] (data_specification.c: 89): magic = ad130ad6, version = 1.0
+[INFO] (recording.c: 197): Allocated 787020 bytes for recording channel 0 at 0x602436d0
+[INFO] (recording.c: 225): Recording channel 0 configured to use 787020 byte memory block starting at 0x602436d0
+[INFO] (spike_source_poisson.c: 396): Recording flags = 0x00000001
+[INFO] (spike_source_poisson.c: 304): read global_parameters: starting
+[INFO] (spike_source_poisson.c: 309): 	key = 00001000, set rate mask = 00000000
+[INFO] (spike_source_poisson.c: 313): 	seed = 3123566608 722330650 4138905198 450297564
+[INFO] (spike_source_poisson.c: 316): 	spike sources = 20, starting at 0
+[INFO] (spike_source_poisson.c: 317): seconds_per_tick = 0.000977
+
+[INFO] (spike_source_poisson.c: 318): ticks_per_second = 0.030518
+
+[INFO] (spike_source_poisson.c: 320): slow_rate_per_tick_cutoff = 0.010010
+
+[INFO] (spike_source_poisson.c: 322): fast_rate_per_tick_cutoff = 10.000000
+
+[INFO] (spike_source_poisson.c: 324): read_global_parameters: completed successfully
+[INFO] (spike_source_poisson.c: 383): read_poisson_parameters: completed successfully
+[INFO] (profiler.c: 36): Reading profile setup from 0x602436b8
+[INFO] (profiler.c: 42): Initialising profiler with storage for 0 samples starting at 0x602436bc
+[INFO] (spike_source_poisson.c: 465): Initialise: completed successfully
+[INFO] (simulation.c: 206): Setting the runtime of this model to 1000 starting at 0
+[INFO] (simulation.c: 208): Setting the flag of infinite run for this model to 0
+[INFO] (simulation.c: 235): Resuming
+[INFO] (simulation.c: 96): Starting basic provenance gathering
+[INFO] (simulation.c: 99): running other provenance gathering
+[INFO] (spike_source_poisson.c: 511): store_parameters: starting
+[INFO] (spike_source_poisson.c: 526): store_parameters: completed successfully
+[INFO] (recording.c: 147): Recording channel 0, start=0x602436d0, end=0x6030391c, write=0x602438fc, space=786464
+[INFO] (recording.c: 153): Recording channel 0 wrote 556 bytes
+[INFO] (profiler.c: 56): Profiler wrote 4 bytes to 0x602436b8
+

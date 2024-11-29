@@ -1,0 +1,11 @@
+[INFO] (delay_extension.c: 579): max dtcm supply 59708
+[INFO] (delay_extension.c: 325): initialise: started
+[INFO] (data_specification.c: 89): magic = ad130ad6, version = 1.0
+[INFO] (delay_extension.c: 232): 	 parrot neurons = 100, neuron bit field words = 4, num delay stages = 1, num delay slots = 16 (pot = 32), num delay slots mask = 0000001f
+[INFO] (delay_extension.c: 361): initialise: completed successfully
+[INFO] (simulation.c: 206): Setting the runtime of this model to 250 starting at 0
+[INFO] (simulation.c: 208): Setting the flag of infinite run for this model to 0
+[INFO] (simulation.c: 235): Resuming
+[INFO] (simulation.c: 96): Starting basic provenance gathering
+[INFO] (simulation.c: 99): running other provenance gathering
+

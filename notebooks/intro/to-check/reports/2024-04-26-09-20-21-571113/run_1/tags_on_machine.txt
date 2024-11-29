@@ -1,0 +1,3 @@
+Tags actually read off the machine
+==================================
+IPTag(board_address=10.11.198.97, destination_x=0, destination_y=0, tag=8, port=35671, ip_address=130.88.193.144, strip_sdp=False, traffic_identifier=DEFAULT)
