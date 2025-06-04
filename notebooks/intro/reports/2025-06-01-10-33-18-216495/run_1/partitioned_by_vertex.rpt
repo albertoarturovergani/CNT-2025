@@ -1,0 +1,28 @@
+        Partitioning Information by Vertex
+        ===============================
+
+Generated: Sun Jun  1 10:34:02 2025 for target machine '10.11.201.73'
+
+**** Vertex: 'Excitatory_Cells'
+Model: AbstractPopulationVertex
+Pop size: 1200
+Machine Vertices: 
+  Slice 0:255 (256 atoms) 
+  Slice 256:511 (256 atoms) 
+  Slice 512:767 (256 atoms) 
+  Slice 768:1023 (256 atoms) 
+  Slice 1024:1199 (176 atoms) 
+
+**** Vertex: 'Inhibitory_Cells'
+Model: AbstractPopulationVertex
+Pop size: 300
+Machine Vertices: 
+  Slice 0:255 (256 atoms) 
+  Slice 256:299 (44 atoms) 
+
+**** Vertex: 'expoisson'
+Model: SpikeSourcePoissonVertex
+Pop size: 20
+Machine Vertices: 
+  Slice 0:19 (20 atoms) 
+

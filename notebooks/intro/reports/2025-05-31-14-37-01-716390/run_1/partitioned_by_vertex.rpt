@@ -1,0 +1,17 @@
+        Partitioning Information by Vertex
+        ===============================
+
+Generated: Sat May 31 14:37:47 2025 for target machine '10.11.223.33'
+
+**** Vertex: 'Exc'
+Model: AbstractPopulationVertex
+Pop size: 100
+Machine Vertices: 
+  Slice 0:99 (100 atoms) 
+
+**** Vertex: 'Thalamus'
+Model: SpikeSourceArrayVertex
+Pop size: 100
+Machine Vertices: 
+  Slice 0:99 (100 atoms) 
+

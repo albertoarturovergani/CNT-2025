@@ -1,0 +1,7 @@
+Router contains 3 entries
+Index Key        Mask       Route      Default [Cores][Links]
+----- ---------- ---------- ---------- ------- --------------
+    0 0x00000000 0xFFFFFF80 0x00000101 False   [2] [E]
+    1 0x00000080 0xFFFFFFE0 0x00000100 False   [2] []
+    2 0x00000100 0xFFFFFFE0 0x00000100 False   [2] []
+0 Defaultable entries

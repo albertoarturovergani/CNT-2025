@@ -1,0 +1,9 @@
+router 5:5 link 4 has potential 1512 collisions 
+router 5:5 link 5 has potential 232 collisions 
+router 4:4 link 0 has potential 1512 collisions 
+router 4:4 link 1 has potential 1512 collisions 
+router 4:4 link 2 has potential 256 collisions 
+router 5:4 link 3 has potential 1512 collisions 
+router 4:5 link 0 has potential 232 collisions 
+router 3:4 link 0 has potential 1000 collisions 
+router 3:4 link 1 has potential 1000 collisions 
