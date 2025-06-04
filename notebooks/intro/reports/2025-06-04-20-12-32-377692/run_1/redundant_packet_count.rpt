@@ -1,0 +1,71 @@
+core vertex_4_4_2_<class 'spynnaker.pyNN.models.neuron.builds.izk_cond_exp_base.IzkCondExpBase'>:0:0 
+
+    10 packets received.
+    0 were detected as redundant packets by the bitfield filter.
+    0 were detected as having no targets after the DMA stage.
+    0 were detected as packets which we should not have received in the first place. 
+    Overall this makes a redundant percentage of 0.0
+core vertex_4_4_3_<class 'spynnaker.pyNN.models.neuron.builds.if_curr_exp_ca2_adaptive.IFCurrExpCa2Adaptive'>:0:0 
+
+    10 packets received.
+    0 were detected as redundant packets by the bitfield filter.
+    0 were detected as having no targets after the DMA stage.
+    0 were detected as packets which we should not have received in the first place. 
+    Overall this makes a redundant percentage of 0.0
+core vertex_4_4_4_<class 'spynnaker.pyNN.models.neuron.builds.if_curr_delta.IFCurrDelta'>:0:0 
+
+    10 packets received.
+    0 were detected as redundant packets by the bitfield filter.
+    0 were detected as having no targets after the DMA stage.
+    0 were detected as packets which we should not have received in the first place. 
+    Overall this makes a redundant percentage of 0.0
+core vertex_4_4_5_<class 'spynnaker.pyNN.models.neuron.builds.if_cond_exp_stoc.IFCondExpStoc'>:0:0 
+
+    10 packets received.
+    0 were detected as redundant packets by the bitfield filter.
+    0 were detected as having no targets after the DMA stage.
+    0 were detected as packets which we should not have received in the first place. 
+    Overall this makes a redundant percentage of 0.0
+core vertex_4_4_6_<class 'spynnaker.pyNN.models.neuron.builds.if_curr_dual_exp_base.IFCurrDualExpBase'>:0:0 
+
+    10 packets received.
+    0 were detected as redundant packets by the bitfield filter.
+    0 were detected as having no targets after the DMA stage.
+    0 were detected as packets which we should not have received in the first place. 
+    Overall this makes a redundant percentage of 0.0
+core vertex_4_4_7_<class 'spynnaker.pyNN.models.neuron.builds.izk_curr_exp_base.IzkCurrExpBase'>:0:0 
+
+    10 packets received.
+    0 were detected as redundant packets by the bitfield filter.
+    0 were detected as having no targets after the DMA stage.
+    0 were detected as packets which we should not have received in the first place. 
+    Overall this makes a redundant percentage of 0.0
+core vertex_4_4_8_<class 'spynnaker.pyNN.models.neuron.builds.if_curr_exp_base.IFCurrExpBase'>:0:0 
+
+    10 packets received.
+    0 were detected as redundant packets by the bitfield filter.
+    0 were detected as having no targets after the DMA stage.
+    0 were detected as packets which we should not have received in the first place. 
+    Overall this makes a redundant percentage of 0.0
+core vertex_4_4_9_<class 'spynnaker.pyNN.models.neuron.builds.if_curr_alpha.IFCurrAlpha'>:0:0 
+
+    10 packets received.
+    0 were detected as redundant packets by the bitfield filter.
+    0 were detected as having no targets after the DMA stage.
+    0 were detected as packets which we should not have received in the first place. 
+    Overall this makes a redundant percentage of 0.0
+core vertex_4_4_10_<class 'spynnaker.pyNN.models.neuron.builds.if_cond_exp_base.IFCondExpBase'>:0:0 
+
+    10 packets received.
+    0 were detected as redundant packets by the bitfield filter.
+    0 were detected as having no targets after the DMA stage.
+    0 were detected as packets which we should not have received in the first place. 
+    Overall this makes a redundant percentage of 0.0
+overall, the core with the most incoming packets had 10 packets.
+         The core with the least incoming packets had 10 packets.
+         The core with the most redundant packets had 0 packets.
+         The core with the least redundant packets had 0 packets.
+         The average incoming and redundant were 10 and 0.
+         The max and min percentages of redundant packets are 0.0 and 0.0. 
+         The average redundant percentages from each core were 0.0 accordingly.
+          The total packets flown in system was 90

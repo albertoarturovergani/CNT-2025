@@ -234,8 +234,8 @@ def plot_population(results, pop_label='exc', fileName='plot', saveDir='figures'
     gexc_total = (gexc_exc + gexc_inh) / 2
     ginh_total = (ginh_exc + ginh_inh) / 2
 
-    ax[6].plot(time, gexc_total, label='mean g_exc', color='blue')
-    ax[6].plot(time, ginh_total, label='mean g_inh', color='red')
+    ax[6].plot(time, gexc_total, label='mean g_exc', color='green')
+    ax[6].plot(time, ginh_total, label='mean g_inh', color='blue')
     ax[6].set_title('Global gsyn (exc + inh average)', fontsize=13)
     ax[6].set_xlabel('time [ms]')
     ax[6].set_ylabel('mean [µS]')
@@ -261,33 +261,27 @@ def plot_population(results, pop_label='exc', fileName='plot', saveDir='figures'
     ax[8].set_ylabel('g_exc / (g_exc + g_inh)', fontsize=12)
     ax[8].set_ylim([0, 1])
 
-    # Pannello 9: raster plot (spike times per neurone)
+    # Panel 9: raster plot (spike times per neuron)
     if (pop_label, 'spikes') in results:
-        spikes = results[pop_label, 'spikes']  # formato: list of list
+        spikes = results[pop_label, 'spikes']  # format: list of lists
         for neuron_id, spike_times in enumerate(spikes):
             ax[9].vlines(spike_times, neuron_id - 0.4, neuron_id + 0.4, color='black', linewidth=0.5)
-        ax[9].set_title('Raster Plot', fontsize=13)
-        ax[9].set_xlabel('time [ms]', fontsize=12)
-        ax[9].set_ylabel('neuron ID', fontsize=12)
+
+        # Compute mean firing rate
+        total_spikes = sum(len(st) for st in spikes)
+        n_neurons = len(spikes)
+        duration_sec = time[-1] / 1000  # ms to seconds
+        mean_rate_hz = total_spikes / n_neurons / duration_sec
+
+        ax[9].set_title(f'Raster Plot\nMean rate: {mean_rate_hz:.2f} Hz', fontsize=13)
+        ax[9].set_xlabel('Time [ms]', fontsize=12)
+        ax[9].set_ylabel('Neuron ID', fontsize=12)
         ax[9].set_xlim([0, time[-1]])
     else:
         ax[9].text(0.5, 0.5, 'No spike data found', ha='center', va='center', transform=ax[9].transAxes)
         ax[9].set_title('Raster Plot')
 
-        for idx, (label, color) in enumerate(zip(['inh', 'exc'], ['b', 'r'])):
-            feat = 'v'
-            sig = np.asarray(results[label, feat]).T
-            f, psd = welch(sig, fs=fs, axis=0, nperseg=nperseg)
-            psd_mean = np.mean(psd, axis=1)
-            psd_sem = np.std(psd, axis=1) / np.sqrt(psd.shape[1])
-            axs[11 + idx].plot(f, psd_mean, label=f'{label.upper()} PSD', c=color)
-            axs[11 + idx].fill_between(f, psd_mean - psd_sem, psd_mean + psd_sem, color=color, alpha=0.3, label=f'{label.upper()} ±1 SEM')
-            axs[11 + idx].set_xscale('log')
-            axs[11 + idx].set_yscale('log')
-            axs[11 + idx].legend()
-            axs[11 + idx].set_title(f'{label.upper()} Welch PSD')
-            axs[11 + idx].set_xlabel('Freq (Hz)')
-            axs[11 + idx].set_ylabel('PSD')
+
         
         
         
