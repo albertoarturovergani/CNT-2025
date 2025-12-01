@@ -19,7 +19,7 @@ TheVirtualBrain is a framework for the simulation of the dynamics of large-scale
 
 ## CNT repository on the SpiNNaker neuromorphic system:
 
-1. make the [EBRAINS](https://www.ebrains.eu/news-and-events/addressing-the-mental-health-crisis-with-personalised-treatment-the-launch-of-the-virtual-brain-twin-project?_cldee=z3bx-t-X2WwYH_Ns69VC9kWyaW8VAwaVjMyz-P_vECfCWAdUYljKJvU80RoorvbIqKFnJHI0gre1ubrl7O-BVA&recipientid=contact-48c6764f990ded1182e40022489c5256-e666155866e2475f9b116c5c1ab32fb0&esid=b2e9e86d-e4e2-ee11-904c-002248a43fb1) credentials to access the SpiNNaker server (https://spinn-20.cs.man.ac.uk/hub/login)
+1. make the [EBRAINS](https://www.ebrains.eu/news-and-events/addressing-the-mental-health-crisis-with-personalised-treatment-the-launch-of-the-virtual-brain-twin-project?_cldee=z3bx-t-X2WwYH_Ns69VC9kWyaW8VAwaVjMyz-P_vECfCWAdUYljKJvU80RoorvbIqKFnJHI0gre1ubrl7O-BVA&recipientid=contact-48c6764f990ded1182e40022489c5256-e666155866e2475f9b116c5c1ab32fb0&esid=b2e9e86d-e4e2-ee11-904c-002248a43fb1) credentials to access the SpiNNaker server (https://sands.cs.man.ac.uk/)
 1. login on the Jupyter Lab interface
 
 <!-- 1. install [brian2](https://brian2.readthedocs.io/en/stable/index.html) simulator `pip install brain2`
