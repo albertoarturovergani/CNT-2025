@@ -27,12 +27,8 @@ TheVirtualBrain is a framework for the simulation of the dynamics of large-scale
 1. install [TVB](https://github.com/the-virtual-brain/tvb-root/tree/master) module `pip install tvb-library tvb-framework`-->
 
 1. clone this repository `git clone https://github.com/albertoarturovergani/CNT-2025`
-1. setup the venv
-    - python3 -m venv <name>
-    - source <name>/bin/activate
-    - pip install -r requirements.txt
-    - (after usage deactivate it)
 1. Open the directory `notebooks/` and run a test with [balance network](notebooks/intro/paper_balance-network.ipynb) by selecting the sPyNNaker kernel or Python3 kernel
+1. Note that you should install the python modules which the notebooks needs. Once you run, in relation to the installation requests, please do `pip install <given-module>`
 1. if you receive any errors, write to albertoarturo.vergani@unipv.it
 
 ## Content:
