@@ -1,5 +1,7 @@
 old/
-
+NOTES.txt
+notebooks/outputs/
+notebooks/intro/to-check/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

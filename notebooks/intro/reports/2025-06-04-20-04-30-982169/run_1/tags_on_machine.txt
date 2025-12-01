@@ -1,3 +1,0 @@
-Tags actually read off the machine
-==================================
-IPTag(board_address=10.11.195.49, destination_x=0, destination_y=0, tag=8, port=51190, ip_address=10.11.192.13, strip_sdp=False, traffic_identifier=DEFAULT)

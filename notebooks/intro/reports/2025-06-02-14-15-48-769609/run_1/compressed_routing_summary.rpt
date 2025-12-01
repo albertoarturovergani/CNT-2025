@@ -1,9 +1,0 @@
-        Routing Summary Report
-        ======================
-
-Generated: Mon Jun  2 14:16:49 2025 for target machine '10.11.215.89'
-
-Chip 4:4 has 2 entries of which 0 are defaultable and 0 link only with 1 unique spinnaker routes
-
- Total entries 2, max per chip 2 max none defaultable 2 max link only 0 max unique spinnaker routes 1
-

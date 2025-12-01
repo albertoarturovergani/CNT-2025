@@ -1,9 +1,0 @@
-# REQUIREMENTS FOR SPINNAKER NOT ONLY FOR PYTHON3
-# GITHUB master and branches with XXX
-# REPORT
-# network with delays
-# VBT as class
-# https://spinnakermanchester.github.io/common_pages/8.0.0/jupyter/
-# https://brian2.readthedocs.io/en/2.6.0/examples/synapses.STDP.html
-# https://compneuro.neuromatch.io/tutorials/W2D3_BiologicalNeuronModels/student/W2D3_Tutorial4.html
-# https://www.youtube.com/@theoreticalneuroscience6062

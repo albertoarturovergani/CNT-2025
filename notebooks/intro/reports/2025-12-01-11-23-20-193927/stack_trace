@@ -1,0 +1,53 @@
+Traceback of setup call:
+  File "/opt/conda/lib/python3.13/runpy.py", line 198, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/opt/conda/lib/python3.13/runpy.py", line 88, in _run_code
+    exec(code, run_globals)
+  File "/home/jovyan/.kernels/sPyNNaker_7.4.1/lib/python3.13/site-packages/ipykernel_launcher.py", line 18, in <module>
+    app.launch_new_instance()
+  File "/home/jovyan/.kernels/sPyNNaker_7.4.1/lib/python3.13/site-packages/traitlets/config/application.py", line 1075, in launch_instance
+    app.start()
+  File "/home/jovyan/.kernels/sPyNNaker_7.4.1/lib/python3.13/site-packages/ipykernel/kernelapp.py", line 758, in start
+    self.io_loop.start()
+  File "/home/jovyan/.kernels/sPyNNaker_7.4.1/lib/python3.13/site-packages/tornado/platform/asyncio.py", line 211, in start
+    self.asyncio_loop.run_forever()
+  File "/opt/conda/lib/python3.13/asyncio/base_events.py", line 683, in run_forever
+    self._run_once()
+  File "/opt/conda/lib/python3.13/asyncio/base_events.py", line 2050, in _run_once
+    handle._run()
+  File "/opt/conda/lib/python3.13/asyncio/events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/jovyan/.kernels/sPyNNaker_7.4.1/lib/python3.13/site-packages/ipykernel/kernelbase.py", line 701, in shell_main
+    await self.dispatch_shell(msg, subshell_id=subshell_id)
+  File "/home/jovyan/.kernels/sPyNNaker_7.4.1/lib/python3.13/site-packages/ipykernel/kernelbase.py", line 469, in dispatch_shell
+    await result
+  File "/home/jovyan/.kernels/sPyNNaker_7.4.1/lib/python3.13/site-packages/ipykernel/ipkernel.py", line 379, in execute_request
+    await super().execute_request(stream, ident, parent)
+  File "/home/jovyan/.kernels/sPyNNaker_7.4.1/lib/python3.13/site-packages/ipykernel/kernelbase.py", line 899, in execute_request
+    reply_content = await reply_content
+  File "/home/jovyan/.kernels/sPyNNaker_7.4.1/lib/python3.13/site-packages/ipykernel/ipkernel.py", line 471, in do_execute
+    res = shell.run_cell(
+  File "/home/jovyan/.kernels/sPyNNaker_7.4.1/lib/python3.13/site-packages/ipykernel/zmqshell.py", line 632, in run_cell
+    return super().run_cell(*args, **kwargs)
+  File "/home/jovyan/.kernels/sPyNNaker_7.4.1/lib/python3.13/site-packages/IPython/core/interactiveshell.py", line 3116, in run_cell
+    result = self._run_cell(
+  File "/home/jovyan/.kernels/sPyNNaker_7.4.1/lib/python3.13/site-packages/IPython/core/interactiveshell.py", line 3171, in _run_cell
+    result = runner(coro)
+  File "/home/jovyan/.kernels/sPyNNaker_7.4.1/lib/python3.13/site-packages/IPython/core/async_helpers.py", line 128, in _pseudo_sync_runner
+    coro.send(None)
+  File "/home/jovyan/.kernels/sPyNNaker_7.4.1/lib/python3.13/site-packages/IPython/core/interactiveshell.py", line 3394, in run_cell_async
+    has_raised = await self.run_ast_nodes(code_ast.body, cell_name,
+  File "/home/jovyan/.kernels/sPyNNaker_7.4.1/lib/python3.13/site-packages/IPython/core/interactiveshell.py", line 3639, in run_ast_nodes
+    if await self.run_code(code, result, async_=asy):
+  File "/home/jovyan/.kernels/sPyNNaker_7.4.1/lib/python3.13/site-packages/IPython/core/interactiveshell.py", line 3699, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "/tmp/ipykernel_1003892/3319350219.py", line 7, in <module>
+    sim.setup(
+  File "/home/jovyan/.kernels/sPyNNaker_7.4.1/lib/python3.13/site-packages/pyNN/spiNNaker/__init__.py", line 329, in setup
+    __simulator = SpiNNaker(
+  File "/home/jovyan/.kernels/sPyNNaker_7.4.1/lib/python3.13/site-packages/spynnaker/pyNN/spinnaker.py", line 111, in __init__
+    super().__init__(SpynnakerDataWriter)
+  File "/home/jovyan/.kernels/sPyNNaker_7.4.1/lib/python3.13/site-packages/spinn_front_end_common/interface/abstract_spinnaker_base.py", line 207, in __init__
+    self._set_up_report_specifics()
+  File "/home/jovyan/.kernels/sPyNNaker_7.4.1/lib/python3.13/site-packages/spinn_front_end_common/interface/config_handler.py", line 242, in _set_up_report_specifics
+    traceback.print_stack(file=f)
