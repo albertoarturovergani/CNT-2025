@@ -28,7 +28,7 @@ TheVirtualBrain is a framework for the simulation of the dynamics of large-scale
 
 1. clone this repository `git clone https://github.com/albertoarturovergani/CNT-2025`
 1. Open the directory `notebooks/` and run a test with [balance network](notebooks/intro/paper_balance-network.ipynb) by selecting the sPyNNaker kernel or Python3 kernel
-1. Note that you should install the python modules which the notebooks needs. Once you run, in relation to the installation requests and the kernel selected (python vs sPyNNaker), please do `pip install <given-module>`; in principle, you should install the following packages: `pip install pyNN brian2 matplotlib fooof networkx pandas seaborn`.
+1. Note that you should install the python modules which the notebooks need. Once you run, in relation to the installation requests and the kernel selected (python vs sPyNNaker), please do `pip install <given-module>`; in principle, you should install the following packages: `pip install pyNN brian2 matplotlib fooof networkx pandas seaborn`.
 
 1. if you receive any errors, write to albertoarturo.vergani@unipv.it
 
