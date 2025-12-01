@@ -1,6 +1,6 @@
 old/
 NOTES.txt
-notebooks/outputs/
+notebooks/outputs/*
 !notebooks/outputs/.gitkeep
 
 notebooks/intro/to-check/
