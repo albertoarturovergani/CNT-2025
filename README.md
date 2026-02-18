@@ -1,6 +1,7 @@
 # Computational Neuroscience Tutorial 2025
 This tutorial has been designed for the following classes:
 
+- [25-26] Introduction to Algorithms for Modeling Virtual Brain Twins, Psy MSc, IUSS/UNIPV
 - [23-24-25] Brain modelling, AI BSc, UNIMI/PV/B
 - [22-23-24] Numerical methods in Neuroscience, Physics MSc, UNIPI, Pisa, Italy
 - [21-22-23-24] Biorobotics and Complex Systems, Physics MSc, UNIPI, Pisa, Italy
