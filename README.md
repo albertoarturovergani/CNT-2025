@@ -42,7 +42,6 @@ TheVirtualBrain is a framework for the simulation of the dynamics of large-scale
 - [Example: Single Cell](notebooks/intro/eg_single-cell.ipynb)
 - [Example: Single Clique](notebooks/intro/eg_single-clique.ipynb)
 - [Example: Small-World Network](notebooks/intro/eg_small-world-network.ipynb)
-- [Example: Stable Network](notebooks/intro/eg_stable-network.ipynb)
 - [Testing: Cell Models in the Network](notebooks/intro/eg_testing-cell-models-network.ipynb)
 - [Testing: STDP Model in the Network](notebooks/intro/eg_testing-STDP-model-network.ipynb)
 - [Exercise: Network A](notebooks/intro/ex_network_A.ipynb)
